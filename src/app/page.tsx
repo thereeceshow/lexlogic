@@ -1,49 +1,8 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import { Footer } from './components/footer';
 
 export default function Home() {
   return (
-    <>
       <main className="bg-black">
-        {/* <div className="text-white py-10">
-          <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
-            <div className="flex flex-col w-full lg:w-2/4 justify-center items-start pl-4 ml:px-8 lg:pl-12 xl:pl-16 py-4">
-              <h1 className="text-3xl md:text-5xl p-2 text-yellow-300 font-bold tracking-loose">
-                LexLogic
-              </h1>
-              <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
-                Crafting Digital Excellence
-              </h2>
-              <p className="text-sm md:text-base text-gray-50 mb-4">
-                LexLogic specializes in custom digital solutions to drive growth
-                and innovation for the future.
-              </p>
-              <div className="w-full flex justify-around">
-            <a
-              href="mailto:reece@lexlogic.dev"
-              className="block bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow-lg hover:shadow-xl py-2 px-4 border border-yellow-300 hover:border-transparent transition-all duration-300 ease-in-out"
-            >
-              Contact Us
-            </a>
-            <Link
-              href="./support"
-              className="block bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow-lg hover:shadow-xl py-2 px-4 border border-yellow-300 hover:border-transparent transition-all duration-300 ease-in-out"
-            >
-              Support
-            </Link>
-          </div>
-            </div>
-            <div className="flex lg:w-2/4 justify-center items-center hidden md:flex px-4 md:px-8 lg:px-12 xl:px-16 py-4">
-              <Image
-                src="/assets/hero-image.png"
-                alt="Hero Image"
-                width={600}
-                height={400}
-                className="flex-shrink-0"
-              />
-            </div>
-          </div>
-        </div> */}
         <div className="container mx-auto text-center py-10">
           <h3 className="text-xl md:text-2xl text-yellow-300 mb-3">
             Why Choose Us?
@@ -77,6 +36,5 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </>
   );
 }
